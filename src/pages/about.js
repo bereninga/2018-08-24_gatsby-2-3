@@ -8,8 +8,8 @@ const About = () => (
     <h1>About Me</h1>
     <p>I'm a web developer who likes to try all the things.</p>
     <ul>
-        <Link to="https://github.com/bereninga">Github</Link>
-        <Link to="https://twitter.com/bereninga">Twitter</Link>
+        <li><Link to="https://github.com/bereninga">Github</Link></li>
+        <li><Link to="https://twitter.com/bereninga">Twitter</Link></li>
     </ul>
     <Link to="/">Go back to the homepage</Link>
   </Layout>
