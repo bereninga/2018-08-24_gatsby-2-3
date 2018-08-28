@@ -12,6 +12,9 @@ const About = () => (
         <li><Link to="https://twitter.com/bereninga">Twitter</Link></li>
     </ul>
     <Link to="/">Go back to the homepage</Link>
+    <div>
+        <Link to="/contact/">Contact Me</Link>
+    </div>
   </Layout>
 )
 
