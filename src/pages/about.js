@@ -11,9 +11,15 @@ const About = () => (
         <li><Link to="https://github.com/bereninga">Github</Link></li>
         <li><Link to="https://twitter.com/bereninga">Twitter</Link></li>
     </ul>
-    <Link to="/">Go back to the homepage</Link>
+    <ul>
+        <li>
+            <Link to="/">Go back to the homepage</Link>
+        </li>
+        <li>
+            <Link to="/contact/">Contact Me</Link>
+        </li>
+    </ul>
     <div>
-        <Link to="/contact/">Contact Me</Link>
     </div>
   </Layout>
 )
