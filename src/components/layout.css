@@ -2,7 +2,7 @@
 @import 'typography.css';
 
 html {
-  font-family: 'Helvetica Neue', arial, serif;
+  font-family: Courier, 'Helvetica Neue', arial, serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -62,7 +62,7 @@ dfn {
   font-style: italic;
 }
 h1 {
-  font-size: 2em;
+  font-size: 3em;
   margin: .67em 0;
 }
 mark {
@@ -201,7 +201,7 @@ html {
 }
 body {
   color: hsla(0, 0%, 0%, 0.8);
-  font-family: 'Helvetica Neue', arial, serif;
+  font-family: Courier, 'Helvetica Neue', arial, serif;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
@@ -235,7 +235,7 @@ h1 {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
-  font-size: 2.25rem;
+  font-size: 3rem;
   line-height: 1.1;
 }
 h2 {
@@ -624,4 +624,17 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+}
+
+label {
+  display: inline-block;
+  text-align: right;
+  width: 50%;
+}
+
+label span,
+input[type="text"],
+input[type="email"] {
+  display: inline-block;
+  width: 40%;
 }

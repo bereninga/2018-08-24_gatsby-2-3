@@ -5,21 +5,22 @@ import Subheader from '../components/subheader'
 const Contact = () => (
   <Layout>
     <Subheader text="Contact" />
+    <p>Feel free to hit me up. Reaching me on Twitter is probably easier, but look, here's a form!</p>
     <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
     <input type="hidden" name="form-name" value="contact" />
     <input type="hidden" name="bot-field" />
-      <p>
-        <label>Your Name: <input type="text" name="name" /></label>
-      </p>
-      <p>
-        <label>Your Email: <input type="email" name="email" /></label>
-      </p>
-      <p>
+      <div class="form-input" style={{marginBottom: '1rem'}}>
+        <label><span>Your Name:</span> <input type="text" name="name" /></label>
+      </div>
+      <div class="form-input" style={{marginBottom: '1rem'}}>
+        <label><span>Your Email:</span> <input type="email" name="email" /></label>
+      </div>
+      <div class="form-input" style={{marginBottom: '1rem'}}>
         <label>Message: <textarea name="message"></textarea></label>
-      </p>
-      <p>
+      </div>
+      <div class="form-input" style={{textAlign: 'center'}}>
         <button type="submit">Send</button>
-      </p>
+      </div>
     </form>
   </Layout>
 );

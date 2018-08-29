@@ -5,10 +5,8 @@ import Layout from '../components/layout'
 
 const IndexPage = () => (
   <Layout>
-    <h1>Check this out</h1>
     <p>This is my site, built with <Link to="//www.gatsbyjs.org/">GatsbyJS</Link>.</p>
     <p>How sweet is this?</p>
-    <Link to="/about/">About</Link>
   </Layout>
 )
 
