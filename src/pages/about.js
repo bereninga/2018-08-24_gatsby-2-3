@@ -12,6 +12,7 @@ const About = () => (
         <li><a href="//twitter.com/bereninga">Twitter</a></li>
         <li><a href="//github.com/bereninga">Github</a></li>
         <li><a href="//www.linkedin.com/in/vlimshowchen/">LinkedIn</a></li>
+        <li><a href="//dev.to/bereninga">dev.to</a></li>
     </ul>
     <Subheader text="Tools" />
     <p>Some tools I'm digging right now.</p>
