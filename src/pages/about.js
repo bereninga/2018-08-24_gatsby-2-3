@@ -1,23 +1,16 @@
 import React from 'react'
-import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
+import Subheader from '../components/subheader'
 
 const About = () => (
   <Layout>
-    <h1>About Me</h1>
+    <Subheader text="About" />
     <p>I'm a web developer who likes to try all the things.</p>
+    <p>Currently employed at <a href="//www.mlb.com">MLB</a>. All content and opinions on this site are my own.</p>
     <ul>
-        <li><Link to="https://github.com/bereninga">Github</Link></li>
-        <li><Link to="https://twitter.com/bereninga">Twitter</Link></li>
-    </ul>
-    <ul>
-        <li>
-            <Link to="/">Go back to the homepage</Link>
-        </li>
-        <li>
-            <Link to="/contact/">Contact Me</Link>
-        </li>
+        <li><a href="//github.com/bereninga">Github</a></li>
+        <li><a href="//twitter.com/bereninga">Twitter</a></li>
     </ul>
     <div>
     </div>
