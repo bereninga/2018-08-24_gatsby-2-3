@@ -16,7 +16,7 @@ const Contact = () => (
         <label><span>Your Email:</span> <input type="email" name="email" /></label>
       </div>
       <div class="form-input" style={{marginBottom: '1rem'}}>
-        <label>Message: <textarea name="message"></textarea></label>
+        <label><span>Message:</span> <textarea name="message"></textarea></label>
       </div>
       <div class="form-input" style={{textAlign: 'center'}}>
         <button type="submit">Send</button>

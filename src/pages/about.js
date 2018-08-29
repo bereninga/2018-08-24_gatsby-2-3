@@ -13,8 +13,12 @@ const About = () => (
         <li><a href="//github.com/bereninga">Github</a></li>
         <li><a href="//www.linkedin.com/in/vlimshowchen/">LinkedIn</a></li>
     </ul>
-    <div>
-    </div>
+    <Subheader text="Tools" />
+    <p>Some tools I'm digging right now.</p>
+    <ul>
+      <li><a href="//github.com/Microsoft/vscode">VS Code</a></li>
+      <li><a href="//github.com/zeit/hyper">Hyper</a></li>
+    </ul>
   </Layout>
 )
 

@@ -626,15 +626,32 @@ pre tt:after {
   }
 }
 
-label {
-  display: inline-block;
-  text-align: right;
-  width: 50%;
-}
+label span { text-align: right; }
 
 label span,
 input[type="text"],
-input[type="email"] {
+input[type="email"],
+textarea {
   display: inline-block;
   width: 40%;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  border-width: 2px 2px 1px 1px;
+  border-color: black;
+  border-style: solid;
+}
+
+button[type="submit"] {
+  border-width: 2px 2px 1px 1px;
+  border-color: black;
+  border-style: solid;
+  background: lightgray;;
+  display: block;
+  width: 50%;
+  text-transform: uppercase;
+  margin: auto;
+  padding: 1rem 0;
 }
