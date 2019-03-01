@@ -10,9 +10,9 @@ const Podcasts = () => (
     <p>Too many subscriptions, not enough time.</p>
     <p>Here are some that I've recently subscribed to.</p>
     <ul>
+      <li><a href="//syntax.fm/">Syntax</a></li>
       <li><a href="//changelog.com/podcast">Changelog</a></li>
       <li><a href="//changelog.com/jsparty">JS Party</a></li>
-      <li><a href="//www.npr.org/podcasts/510313/how-i-built-this">How I Built This</a></li>
       <li><a href="//www.npr.org/programs/wait-wait-dont-tell-me/">Wait Wait... Don't Tell Me!</a></li>
       <li><a href="//www.thisamericanlife.org/">This American Life</a></li>
     </ul>
