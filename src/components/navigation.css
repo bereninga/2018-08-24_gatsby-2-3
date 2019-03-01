@@ -1,9 +1,15 @@
-.navigation {
+.navigation-container {
     background: black;
     border-top: 1px solid white;
+    width: 100%;
+}
+
+.navigation {
+    background: black;
     display: flex;
     list-style: none;
-    margin: 0 0 2rem 0;
+    margin: 0 auto 2rem;
+    max-width: 900px;
     text-align: center;
     text-transform: uppercase;
     font-size: .75rem;
