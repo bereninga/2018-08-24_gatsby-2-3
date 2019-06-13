@@ -6,9 +6,9 @@
   "dependencies": {
     "gatsby": "^2.9.2",
     "gatsby-cli": "^2.4.12",
-    "gatsby-plugin-manifest": "next",
+    "gatsby-plugin-manifest": "^2.1.1",
     "gatsby-plugin-offline": "^2.0.24",
-    "gatsby-plugin-react-helmet": "next",
+    "gatsby-plugin-react-helmet": "^3.0.12",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-helmet": "^5.2.0"
